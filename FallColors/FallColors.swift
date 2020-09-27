@@ -40,15 +40,7 @@ let ColorDict = [1 : UIColor.red,
     func randomColor() -> UIColor{
         return UIColor(red: randomfloat(), green: randomfloat(), blue: randomfloat(), alpha: 1.0)
     }
-    func increaseNumber(inputInt: Int) -> Int{
-       var Score = inputInt + 1
-        return Score
-    }
-    func decreaseNumber(inputInt: Int) -> Int{
-        var Score = inputInt + 1
-         return Score
-     }
-  
+    
 
 }
 
