@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,29 +12,20 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FallColors" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nW-5c-l1F">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="91"/>
-                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="667" id="Xtj-cT-oMU"/>
-                                    <constraint firstAttribute="height" constant="91" id="eq1-ID-C5F"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="pun-BL-XAq"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Y9-XC-Df4">
-                                <rect key="frame" x="-292" y="595" width="667" height="72"/>
+                                <rect key="frame" x="-394" y="790" width="808" height="72"/>
                                 <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="667" id="E3k-N0-Lau"/>
+                                    <constraint firstAttribute="width" constant="808" id="E3k-N0-Lau"/>
                                     <constraint firstAttribute="height" constant="72" id="c8I-Xp-Cv9"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="kf2-ct-pmt"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="vhe-sJ-kO5">
-                                <rect key="frame" x="74.5" y="290" width="226.5" height="151"/>
+                                <rect key="frame" x="94" y="409.5" width="226.5" height="151"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="O9I-R8-3Gk">
                                         <rect key="frame" x="0.0" y="0.0" width="226.5" height="87.5"/>
@@ -76,19 +67,28 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ibd-jR-XzT">
-                                <rect key="frame" x="152" y="385" width="71" height="342"/>
+                                <rect key="frame" x="152" y="385" width="110" height="537"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-Qi-XlP">
-                                        <rect key="frame" x="0.0" y="0.0" width="71" height="342"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="537"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Score" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLx-E7-BAw">
-                                <rect key="frame" x="131" y="377" width="110" height="33"/>
+                                <rect key="frame" x="131" y="496.5" width="149" height="32.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8nW-5c-l1F">
+                                <rect key="frame" x="0.0" y="44" width="808" height="91"/>
+                                <color key="backgroundColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="808" id="Xtj-cT-oMU"/>
+                                    <constraint firstAttribute="height" constant="91" id="eq1-ID-C5F"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="pun-BL-XAq"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <gestureRecognizers/>
@@ -130,7 +130,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="125.59999999999999" y="105.69715142428787"/>
+            <point key="canvasLocation" x="122.54464285714285" y="101.44927536231884"/>
         </scene>
     </scenes>
 </document>
