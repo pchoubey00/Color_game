@@ -29,8 +29,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        Box1.backgroundColor = UIColor.orange
-        Box2.backgroundColor = UIColor.orange
+        Box1.backgroundColor = UIColor.red
+        Box2.backgroundColor = UIColor.blue
         view.backgroundColor = UIColor.white
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap1))
         
