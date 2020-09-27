@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  FallColors
+
+  Created by Prinaya Choubey on 9/26/20.
+  Copyright © 2020 Prinaya Choubey. All rights reserved.
+*/
+"ButtonString" = "bouton";
+"ScoreLabel_str" = "Compte:";
+"Instruction_name" = "Les Directives:";
+"Step1_str" = "Boîtes de même couleur: 1 compte";
+"Step2_str" = "Appuyez sur Arrière-plan: -1 compte";

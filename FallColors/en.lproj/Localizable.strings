@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  FallColors
+
+  Created by Prinaya Choubey on 9/26/20.
+  Copyright © 2020 Prinaya Choubey. All rights reserved.
+*/
+"ButtonString" = "Button";
+"ScoreLabel_str" = "Score:" ;
+"Instruction_name" = "Instructions:";
+"Step1_str" = "Same color boxes: 1 point ";
+"Step2_str" = "Tap Background: -1 point";
+
+
+
